@@ -26,3 +26,5 @@ async def websocket_endpoint(websocket:WebSocket,username:str):
         connections.remove(user_connection)
 
         print(f"{username} disconnected")
+
+      
